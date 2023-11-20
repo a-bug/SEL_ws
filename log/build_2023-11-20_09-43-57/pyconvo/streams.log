@@ -1,0 +1,26 @@
+[0.787s] Invoking command in '/home/aluno/Desktop/SEL_ws/src/pyconvo': PYTHONPATH=/home/aluno/Desktop/SEL_ws/build/pyconvo/prefix_override:/home/aluno/Desktop/SEL_ws/install/pyconvo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pyconvo build --build-base /home/aluno/Desktop/SEL_ws/build/pyconvo/build install --record /home/aluno/Desktop/SEL_ws/build/pyconvo/install.log --single-version-externally-managed
+[1.041s] running egg_info
+[1.042s] writing ../../build/pyconvo/pyconvo.egg-info/PKG-INFO
+[1.042s] writing dependency_links to ../../build/pyconvo/pyconvo.egg-info/dependency_links.txt
+[1.042s] writing entry points to ../../build/pyconvo/pyconvo.egg-info/entry_points.txt
+[1.042s] writing requirements to ../../build/pyconvo/pyconvo.egg-info/requires.txt
+[1.042s] writing top-level names to ../../build/pyconvo/pyconvo.egg-info/top_level.txt
+[1.044s] reading manifest file '../../build/pyconvo/pyconvo.egg-info/SOURCES.txt'
+[1.045s] writing manifest file '../../build/pyconvo/pyconvo.egg-info/SOURCES.txt'
+[1.045s] running build
+[1.045s] running build_py
+[1.045s] running install
+[1.045s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.045s]   warnings.warn(
+[1.046s] running install_lib
+[1.047s] running install_data
+[1.047s] copying launch/serial.launch.py -> /home/aluno/Desktop/SEL_ws/install/pyconvo/share/pyconvo/launch
+[1.048s] running install_egg_info
+[1.049s] removing '/home/aluno/Desktop/SEL_ws/install/pyconvo/lib/python3.10/site-packages/pyconvo-0.0.0-py3.10.egg-info' (and everything under it)
+[1.049s] Copying ../../build/pyconvo/pyconvo.egg-info to /home/aluno/Desktop/SEL_ws/install/pyconvo/lib/python3.10/site-packages/pyconvo-0.0.0-py3.10.egg-info
+[1.050s] running install_scripts
+[1.071s] Installing convo script to /home/aluno/Desktop/SEL_ws/install/pyconvo/lib/pyconvo
+[1.072s] Installing logger script to /home/aluno/Desktop/SEL_ws/install/pyconvo/lib/pyconvo
+[1.072s] Installing talker script to /home/aluno/Desktop/SEL_ws/install/pyconvo/lib/pyconvo
+[1.072s] writing list of installed files to '/home/aluno/Desktop/SEL_ws/build/pyconvo/install.log'
+[1.101s] Invoked command in '/home/aluno/Desktop/SEL_ws/src/pyconvo' returned '0': PYTHONPATH=/home/aluno/Desktop/SEL_ws/build/pyconvo/prefix_override:/home/aluno/Desktop/SEL_ws/install/pyconvo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pyconvo build --build-base /home/aluno/Desktop/SEL_ws/build/pyconvo/build install --record /home/aluno/Desktop/SEL_ws/build/pyconvo/install.log --single-version-externally-managed

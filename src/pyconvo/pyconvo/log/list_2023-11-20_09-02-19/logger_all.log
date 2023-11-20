@@ -1,0 +1,26 @@
+[0.621s] DEBUG:colcon:Command line arguments: ['/home/aluno/.local/bin/colcon', 'list', '-p', '--base-paths', '/home/aluno/Desktop/SEL_ws/src/pyconvo/pyconvo']
+[0.621s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/aluno/Desktop/SEL_ws/src/pyconvo/pyconvo'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f41a7bb5420>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f41a7d95960>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f41a7d95960>>)
+[0.660s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.660s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.660s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.660s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.660s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.660s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/aluno/Desktop/SEL_ws/src/pyconvo/pyconvo'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aluno/Desktop/SEL_ws/src/pyconvo/pyconvo) by extensions ['ignore', 'ignore_ament_install']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aluno/Desktop/SEL_ws/src/pyconvo/pyconvo) by extension 'ignore'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aluno/Desktop/SEL_ws/src/pyconvo/pyconvo) by extension 'ignore_ament_install'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aluno/Desktop/SEL_ws/src/pyconvo/pyconvo) by extensions ['colcon_pkg']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aluno/Desktop/SEL_ws/src/pyconvo/pyconvo) by extension 'colcon_pkg'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aluno/Desktop/SEL_ws/src/pyconvo/pyconvo) by extensions ['colcon_meta']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aluno/Desktop/SEL_ws/src/pyconvo/pyconvo) by extension 'colcon_meta'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aluno/Desktop/SEL_ws/src/pyconvo/pyconvo) by extensions ['ros']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aluno/Desktop/SEL_ws/src/pyconvo/pyconvo) by extension 'ros'
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aluno/Desktop/SEL_ws/src/pyconvo/pyconvo) by extensions ['cmake', 'python']
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aluno/Desktop/SEL_ws/src/pyconvo/pyconvo) by extension 'cmake'
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aluno/Desktop/SEL_ws/src/pyconvo/pyconvo) by extension 'python'
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aluno/Desktop/SEL_ws/src/pyconvo/pyconvo) by extensions ['python_setup_py']
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aluno/Desktop/SEL_ws/src/pyconvo/pyconvo) by extension 'python_setup_py'
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aluno/Desktop/SEL_ws/src/pyconvo/pyconvo/log) by extensions ['ignore', 'ignore_ament_install']
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aluno/Desktop/SEL_ws/src/pyconvo/pyconvo/log) by extension 'ignore'
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aluno/Desktop/SEL_ws/src/pyconvo/pyconvo/log) ignored
+[0.685s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
