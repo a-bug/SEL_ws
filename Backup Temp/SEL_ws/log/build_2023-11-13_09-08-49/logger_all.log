@@ -1,0 +1,127 @@
+[1.045s] DEBUG:colcon:Command line arguments: ['/home/aluno/.local/bin/colcon', 'build']
+[1.045s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f3a82943880>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f3a82ac8d60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f3a82ac8d60>>)
+[1.361s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.361s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.362s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/aluno/Desktop/SEL_ws'
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.413s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.413s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.413s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.413s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.413s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.414s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.414s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.414s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.414s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.414s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.414s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.414s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.415s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.415s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.415s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.415s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.415s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.415s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.415s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.415s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.415s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.415s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.415s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.416s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.416s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.416s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.416s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.416s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/pyconvo) by extensions ['ignore', 'ignore_ament_install']
+[1.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/pyconvo) by extension 'ignore'
+[1.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/pyconvo) by extension 'ignore_ament_install'
+[1.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/pyconvo) by extensions ['colcon_pkg']
+[1.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/pyconvo) by extension 'colcon_pkg'
+[1.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/pyconvo) by extensions ['colcon_meta']
+[1.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/pyconvo) by extension 'colcon_meta'
+[1.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/pyconvo) by extensions ['ros']
+[1.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/pyconvo) by extension 'ros'
+[1.420s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pyconvo' with type 'ros.ament_python' and name 'pyconvo'
+[1.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.515s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.515s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.550s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/aluno/Desktop/SEL_ws/install
+[1.558s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 394 installed packages in /opt/ros/iron
+[1.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.666s] Level 5:colcon.colcon_core.verb:set package 'pyconvo' build argument 'cmake_args' from command line to 'None'
+[1.667s] Level 5:colcon.colcon_core.verb:set package 'pyconvo' build argument 'cmake_target' from command line to 'None'
+[1.667s] Level 5:colcon.colcon_core.verb:set package 'pyconvo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.667s] Level 5:colcon.colcon_core.verb:set package 'pyconvo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.667s] Level 5:colcon.colcon_core.verb:set package 'pyconvo' build argument 'cmake_clean_first' from command line to 'False'
+[1.667s] Level 5:colcon.colcon_core.verb:set package 'pyconvo' build argument 'cmake_force_configure' from command line to 'False'
+[1.667s] Level 5:colcon.colcon_core.verb:set package 'pyconvo' build argument 'ament_cmake_args' from command line to 'None'
+[1.667s] Level 5:colcon.colcon_core.verb:set package 'pyconvo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.667s] Level 5:colcon.colcon_core.verb:set package 'pyconvo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.667s] DEBUG:colcon.colcon_core.verb:Building package 'pyconvo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aluno/Desktop/SEL_ws/build/pyconvo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aluno/Desktop/SEL_ws/install/pyconvo', 'merge_install': False, 'path': '/home/aluno/Desktop/SEL_ws/src/pyconvo', 'symlink_install': False, 'test_result_base': None}
+[1.669s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.680s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.680s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/aluno/Desktop/SEL_ws/src/pyconvo' with build type 'ament_python'
+[1.680s] Level 1:colcon.colcon_core.shell:create_environment_hook('pyconvo', 'ament_prefix_path')
+[1.689s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aluno/Desktop/SEL_ws/install/pyconvo/share/pyconvo/hook/ament_prefix_path.ps1'
+[1.690s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aluno/Desktop/SEL_ws/install/pyconvo/share/pyconvo/hook/ament_prefix_path.dsv'
+[1.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aluno/Desktop/SEL_ws/install/pyconvo/share/pyconvo/hook/ament_prefix_path.sh'
+[1.699s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.699s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.016s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/aluno/Desktop/SEL_ws/src/pyconvo'
+[2.021s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.021s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aluno/Desktop/SEL_ws/src/pyconvo': PYTHONPATH=/home/aluno/Desktop/SEL_ws/build/pyconvo/prefix_override:/home/aluno/Desktop/SEL_ws/install/pyconvo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pyconvo build --build-base /home/aluno/Desktop/SEL_ws/build/pyconvo/build install --record /home/aluno/Desktop/SEL_ws/build/pyconvo/install.log --single-version-externally-managed
+[3.843s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aluno/Desktop/SEL_ws/src/pyconvo' returned '0': PYTHONPATH=/home/aluno/Desktop/SEL_ws/build/pyconvo/prefix_override:/home/aluno/Desktop/SEL_ws/install/pyconvo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pyconvo build --build-base /home/aluno/Desktop/SEL_ws/build/pyconvo/build install --record /home/aluno/Desktop/SEL_ws/build/pyconvo/install.log --single-version-externally-managed
+[3.955s] Level 1:colcon.colcon_core.environment:checking '/home/aluno/Desktop/SEL_ws/install/pyconvo' for CMake module files
+[3.957s] Level 1:colcon.colcon_core.environment:checking '/home/aluno/Desktop/SEL_ws/install/pyconvo' for CMake config files
+[3.959s] Level 1:colcon.colcon_core.environment:checking '/home/aluno/Desktop/SEL_ws/install/pyconvo/lib'
+[3.960s] Level 1:colcon.colcon_core.environment:checking '/home/aluno/Desktop/SEL_ws/install/pyconvo/bin'
+[3.961s] Level 1:colcon.colcon_core.environment:checking '/home/aluno/Desktop/SEL_ws/install/pyconvo/lib/pkgconfig/pyconvo.pc'
+[3.962s] Level 1:colcon.colcon_core.environment:checking '/home/aluno/Desktop/SEL_ws/install/pyconvo/lib/python3.10/site-packages'
+[3.962s] Level 1:colcon.colcon_core.shell:create_environment_hook('pyconvo', 'pythonpath')
+[3.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aluno/Desktop/SEL_ws/install/pyconvo/share/pyconvo/hook/pythonpath.ps1'
+[3.982s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aluno/Desktop/SEL_ws/install/pyconvo/share/pyconvo/hook/pythonpath.dsv'
+[3.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aluno/Desktop/SEL_ws/install/pyconvo/share/pyconvo/hook/pythonpath.sh'
+[3.985s] Level 1:colcon.colcon_core.environment:checking '/home/aluno/Desktop/SEL_ws/install/pyconvo/bin'
+[3.985s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pyconvo)
+[3.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/aluno/Desktop/SEL_ws/install/pyconvo/share/pyconvo/package.ps1'
+[4.022s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aluno/Desktop/SEL_ws/install/pyconvo/share/pyconvo/package.dsv'
+[4.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/aluno/Desktop/SEL_ws/install/pyconvo/share/pyconvo/package.sh'
+[4.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/aluno/Desktop/SEL_ws/install/pyconvo/share/pyconvo/package.bash'
+[4.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/aluno/Desktop/SEL_ws/install/pyconvo/share/pyconvo/package.zsh'
+[4.034s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aluno/Desktop/SEL_ws/install/pyconvo/share/colcon-core/packages/pyconvo)
+[4.035s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.035s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.035s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.035s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.080s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.080s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.080s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.121s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.128s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aluno/Desktop/SEL_ws/install/local_setup.ps1'
+[4.129s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aluno/Desktop/SEL_ws/install/_local_setup_util_ps1.py'
+[4.131s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aluno/Desktop/SEL_ws/install/setup.ps1'
+[4.137s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aluno/Desktop/SEL_ws/install/local_setup.sh'
+[4.138s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aluno/Desktop/SEL_ws/install/_local_setup_util_sh.py'
+[4.138s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aluno/Desktop/SEL_ws/install/setup.sh'
+[4.143s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aluno/Desktop/SEL_ws/install/local_setup.bash'
+[4.144s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aluno/Desktop/SEL_ws/install/setup.bash'
+[4.148s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aluno/Desktop/SEL_ws/install/local_setup.zsh'
+[4.161s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aluno/Desktop/SEL_ws/install/setup.zsh'

@@ -1,0 +1,53 @@
+[1.906s] Invoking command in '/home/aluno/Desktop/SEL_ws/src/pyconvo': PYTHONPATH=/home/aluno/Desktop/SEL_ws/build/pyconvo/prefix_override:/home/aluno/Desktop/SEL_ws/install/pyconvo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pyconvo build --build-base /home/aluno/Desktop/SEL_ws/build/pyconvo/build install --record /home/aluno/Desktop/SEL_ws/build/pyconvo/install.log --single-version-externally-managed
+[2.142s] running egg_info
+[2.143s] creating ../../build/pyconvo/pyconvo.egg-info
+[2.143s] writing ../../build/pyconvo/pyconvo.egg-info/PKG-INFO
+[2.143s] writing dependency_links to ../../build/pyconvo/pyconvo.egg-info/dependency_links.txt
+[2.143s] writing entry points to ../../build/pyconvo/pyconvo.egg-info/entry_points.txt
+[2.143s] writing requirements to ../../build/pyconvo/pyconvo.egg-info/requires.txt
+[2.143s] writing top-level names to ../../build/pyconvo/pyconvo.egg-info/top_level.txt
+[2.143s] writing manifest file '../../build/pyconvo/pyconvo.egg-info/SOURCES.txt'
+[2.145s] reading manifest file '../../build/pyconvo/pyconvo.egg-info/SOURCES.txt'
+[2.145s] writing manifest file '../../build/pyconvo/pyconvo.egg-info/SOURCES.txt'
+[2.145s] running build
+[2.146s] running build_py
+[2.146s] creating /home/aluno/Desktop/SEL_ws/build/pyconvo/build
+[2.146s] creating /home/aluno/Desktop/SEL_ws/build/pyconvo/build/lib
+[2.146s] creating /home/aluno/Desktop/SEL_ws/build/pyconvo/build/lib/pyconvo
+[2.146s] copying pyconvo/__init__.py -> /home/aluno/Desktop/SEL_ws/build/pyconvo/build/lib/pyconvo
+[2.146s] copying pyconvo/talker.py -> /home/aluno/Desktop/SEL_ws/build/pyconvo/build/lib/pyconvo
+[2.146s] copying pyconvo/logger.py -> /home/aluno/Desktop/SEL_ws/build/pyconvo/build/lib/pyconvo
+[2.146s] copying pyconvo/convo.py -> /home/aluno/Desktop/SEL_ws/build/pyconvo/build/lib/pyconvo
+[2.146s] running install
+[2.155s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.155s]   warnings.warn(
+[2.155s] running install_lib
+[2.156s] creating /home/aluno/Desktop/SEL_ws/install/pyconvo/lib/python3.10/site-packages/pyconvo
+[2.156s] copying /home/aluno/Desktop/SEL_ws/build/pyconvo/build/lib/pyconvo/__init__.py -> /home/aluno/Desktop/SEL_ws/install/pyconvo/lib/python3.10/site-packages/pyconvo
+[2.156s] copying /home/aluno/Desktop/SEL_ws/build/pyconvo/build/lib/pyconvo/talker.py -> /home/aluno/Desktop/SEL_ws/install/pyconvo/lib/python3.10/site-packages/pyconvo
+[2.156s] copying /home/aluno/Desktop/SEL_ws/build/pyconvo/build/lib/pyconvo/logger.py -> /home/aluno/Desktop/SEL_ws/install/pyconvo/lib/python3.10/site-packages/pyconvo
+[2.156s] copying /home/aluno/Desktop/SEL_ws/build/pyconvo/build/lib/pyconvo/convo.py -> /home/aluno/Desktop/SEL_ws/install/pyconvo/lib/python3.10/site-packages/pyconvo
+[2.157s] byte-compiling /home/aluno/Desktop/SEL_ws/install/pyconvo/lib/python3.10/site-packages/pyconvo/__init__.py to __init__.cpython-310.pyc
+[2.157s] byte-compiling /home/aluno/Desktop/SEL_ws/install/pyconvo/lib/python3.10/site-packages/pyconvo/talker.py to talker.cpython-310.pyc
+[2.158s] byte-compiling /home/aluno/Desktop/SEL_ws/install/pyconvo/lib/python3.10/site-packages/pyconvo/logger.py to logger.cpython-310.pyc
+[2.158s] byte-compiling /home/aluno/Desktop/SEL_ws/install/pyconvo/lib/python3.10/site-packages/pyconvo/convo.py to convo.cpython-310.pyc
+[2.158s] running install_data
+[2.159s] creating /home/aluno/Desktop/SEL_ws/install/pyconvo/share/ament_index
+[2.159s] creating /home/aluno/Desktop/SEL_ws/install/pyconvo/share/ament_index/resource_index
+[2.159s] creating /home/aluno/Desktop/SEL_ws/install/pyconvo/share/ament_index/resource_index/packages
+[2.159s] copying resource/pyconvo -> /home/aluno/Desktop/SEL_ws/install/pyconvo/share/ament_index/resource_index/packages
+[2.159s] copying package.xml -> /home/aluno/Desktop/SEL_ws/install/pyconvo/share/pyconvo
+[2.160s] creating /home/aluno/Desktop/SEL_ws/install/pyconvo/share/pyconvo/launch
+[2.160s] copying launch/launch.py -> /home/aluno/Desktop/SEL_ws/install/pyconvo/share/pyconvo/launch
+[2.160s] copying launch/serial.launch.py -> /home/aluno/Desktop/SEL_ws/install/pyconvo/share/pyconvo/launch
+[2.160s] creating /home/aluno/Desktop/SEL_ws/install/pyconvo/share/pyconvo/params
+[2.160s] copying params/ttyS0.params.yaml -> /home/aluno/Desktop/SEL_ws/install/pyconvo/share/pyconvo/params
+[2.160s] copying params/ttyACM0.params.yaml -> /home/aluno/Desktop/SEL_ws/install/pyconvo/share/pyconvo/params
+[2.160s] running install_egg_info
+[2.161s] Copying ../../build/pyconvo/pyconvo.egg-info to /home/aluno/Desktop/SEL_ws/install/pyconvo/lib/python3.10/site-packages/pyconvo-0.0.0-py3.10.egg-info
+[2.162s] running install_scripts
+[2.179s] Installing convo script to /home/aluno/Desktop/SEL_ws/install/pyconvo/lib/pyconvo
+[2.180s] Installing logger script to /home/aluno/Desktop/SEL_ws/install/pyconvo/lib/pyconvo
+[2.180s] Installing talker script to /home/aluno/Desktop/SEL_ws/install/pyconvo/lib/pyconvo
+[2.180s] writing list of installed files to '/home/aluno/Desktop/SEL_ws/build/pyconvo/install.log'
+[2.202s] Invoked command in '/home/aluno/Desktop/SEL_ws/src/pyconvo' returned '0': PYTHONPATH=/home/aluno/Desktop/SEL_ws/build/pyconvo/prefix_override:/home/aluno/Desktop/SEL_ws/install/pyconvo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pyconvo build --build-base /home/aluno/Desktop/SEL_ws/build/pyconvo/build install --record /home/aluno/Desktop/SEL_ws/build/pyconvo/install.log --single-version-externally-managed
